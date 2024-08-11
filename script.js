@@ -49,7 +49,7 @@ function btnDesencriptar() {
 
 function alertar() {
     txtSalida.value = "";
-    txtSalida.style.backgroundImage = "url('/imagenes/Muñeco.png')";
+    txtSalida.style.backgroundImage = "url('imagenes/Muñeco.png')";
     noMensaje.style.visibility = "visible";
     btnCopiar.hidden=true;
 }
