@@ -3,13 +3,6 @@ const txtSalida = document.querySelector(".txt-salida");
 const btnCopiar = document.querySelector(".btn-copiar");
 const noMensaje = document.querySelector(".noMensaje");
 
-// btnCopiar.style.visibility="hidden"
-// La letra "e" es convertida para "enter"
-// La letra "i" es convertida para "imes"
-// La letra "a" es convertida para "ai"
-// La letra "o" es convertida para "ober"
-// La letra "u" es convertida para "ufat"
-
 function validarTexto(texto) {
     const regex = /[ÁÉÍÓÚÑáéíóúñ]|[^a-z\s]/; // Regex para detectar mayúsculas y acentos
     return regex.test(texto);
@@ -49,7 +42,6 @@ function btnDesencriptar() {
         txtEntrada.value = "";
         noMensaje.style.visibility = "hidden";
         txtSalida.value = txtDesencriptado;
-        // copiar.style.visibility = "visible";
         btnCopiar.hidden = false;
 
     }
@@ -76,7 +68,6 @@ function encriptar(mensajeEncriptado) {
             mensajeEncriptado = mensajeEncriptado.replaceAll(reglas[i][0], reglas[i][1])
         }
     }
-
     return mensajeEncriptado;
 }
 

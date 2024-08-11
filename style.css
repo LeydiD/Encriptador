@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Honk:MORF,SHLN@0,87.6&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Neucha&family=Rubik+Doodle+Shadow&display=swap'); */
-
 * {
     background-color: #F3F5FC;
     margin: 0;
@@ -28,7 +26,6 @@ main {
 .txt-entrada {
     border: none;
     color: #0A3871;
-    /* text-transform: lowercase; */
 }
 
 ::placeholder {
@@ -95,7 +92,6 @@ main {
 .salida {
     width: 30%;
     margin-left: 5%;
-    /* margin-right: 3px; */
 }
 
 .txt-salida {
