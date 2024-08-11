@@ -98,7 +98,7 @@ main {
     width: 85%;
     margin-top: 0;
     background-color: white;
-    background-image: url(/imagenes/Muñeco.png);
+    background-image: url(imagenes/Muñeco.png);
     background-repeat: no-repeat;
     border: none;
     color: #0A3871;
