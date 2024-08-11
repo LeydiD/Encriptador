@@ -1,5 +1,7 @@
 Encriptador de texto:
 
+Página web: https://leydid.github.io/Encriptador/
+
 Este es un sencillo encriptador de texto creado con HTML, CSS y JavaScript. La aplicación permite encriptar y desencriptar textos utilizando reglas específicas, con la posibilidad de copiar el texto resultante.
 
   Características
