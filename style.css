@@ -68,7 +68,7 @@ main {
 
 .btn-encriptar:hover {
     background: none;
-    color: #0A3871;
+    color: #197ffb;
 }
 
 .btn-desencriptar {
@@ -85,7 +85,7 @@ main {
 }
 
 .btn-desencriptar:hover {
-    background: #0A3871;
+    background: #197ffb;
     color: white;
 }
 
@@ -132,7 +132,7 @@ main {
 
 .btn-copiar:hover {
     background: #0A3871;
-    color: black;
+    color: white;
 }
 
 .noMensaje {
